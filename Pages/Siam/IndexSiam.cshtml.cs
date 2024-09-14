@@ -11,7 +11,7 @@ namespace inventorysystem.Pages.Siam
         {
 			try
 			{
-				String connectionString = "Server=tcp:inventory2020.database.windows.net,1433;Initial Catalog=inventory2020;Persist Security Info=False;User ID=racha;Password=pp@795029;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;\r\n";
+				String connectionString = "Server=tcp:inventory2929.database.windows.net,1433;Initial Catalog=inventory2929;Persist Security Info=False;User ID=racha;Password=pp@795029;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;\r\n";
 
 				using (SqlConnection connection = new SqlConnection(connectionString))
 				{
